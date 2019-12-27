@@ -21,7 +21,7 @@ print(ls())
 #so use this command to show them too
 print(ls(all.names = TRUE))
 
-#print variable at workspace starting with 'za'
+#print variable at workspace which include 'za'
 print(ls(pattern = 'za'))
 
 #delete variable from workspace, a is variable
@@ -242,3 +242,6 @@ print(result)
 # Justfy string with center.
 result <- format("Hello", width = 8, justify = "c")
 print(result)
+
+#count the length of characters
+nchar("zahid ali")
