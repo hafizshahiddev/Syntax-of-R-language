@@ -68,7 +68,7 @@ print(d >= v)
 print(d <= v)
 print(d != v)
 
-#logical operator
+#logival operator
 print(d & v)
 print(d | v)
 print(!v)
@@ -197,3 +197,12 @@ x <- switch(
   'sikander'   #case3
 )
 print(x)
+
+#input from user in array using for loop
+rm(list = ls())
+arr<-
+v <- 1:5
+for (i in v) {
+  arr[i] <- readline(prompt = "enter value: ")
+}
+
