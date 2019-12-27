@@ -30,7 +30,7 @@ rm(a)
 #to all variable on workspace
 rm(list = ls())
 
-#adding to vectors mean array
+#adding to vectors mean array index by index
 
 v <- c(2, 0, 4, 1)
 d <- c(2, 14, 0, 11)
@@ -245,3 +245,28 @@ print(result)
 
 #count the length of characters
 nchar("zahid ali")
+
+#to upper case
+print(toupper("zahidi Ali"))
+
+#to lower case
+print(tolower("ZAhId Ali"))
+
+#Extract character from position to position
+print(substring("zahid ali", 5, 9))    #from 5 to 9, space is including
+
+############## Atomic Vectors total 6 types
+a<-"abcd"    #characters
+a<-12.5      #double
+a<-12L       #integer
+a<-TRUE      #logical
+a<-2+3i      #complex
+a<-charToRaw('abcdzABCDZ01239')   #Raw convertin to raw
+
+#converting to char from raw
+a<-rawToChar(a)
+
+# Create vector with elements from 5 to 9 incrementing by 0.4.
+a<-seq(1, 9, by = 0.)3
+print(a)
+
