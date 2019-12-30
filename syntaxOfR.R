@@ -270,3 +270,5 @@ a<-rawToChar(a)
 a<-seq(1, 9, by = 0.)3
 print(a)
 
+#changing value globally value of a will be 3 if we do this inside function then value will be 3 globally
+ a<<-3
