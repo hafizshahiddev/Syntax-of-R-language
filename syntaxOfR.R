@@ -1,4 +1,3 @@
-#R language use for fraud detection, test simulation, client assesesment.
 #assigning value and printing value
 a = 1      #using =
 print(a)          #printing a
@@ -37,6 +36,8 @@ v <- c(2, 0, 4, 1)
 d <- c(2, 14, 0, 11)
 sum2 <- (v+d)
 print(sum2)
+
+
 
 #adding all elements of two arrays
 sum4 <- sum(v,d)
@@ -140,11 +141,11 @@ repeat{      #repeat
   }
   r<-r+1
 }
-
+ # while loop 
 #while
 
 w<-1         #starting value
-while(w<3){  #condition
+while(w<3 || w==3){  #condition
   print(w)
   w<-w+1     #incrementing
 }
