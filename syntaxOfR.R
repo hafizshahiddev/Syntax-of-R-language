@@ -1,3 +1,4 @@
+#R language use for fraud detection, test simulation, client assesesment.
 #assigning value and printing value
 a = 1      #using =
 print(a)          #printing a
