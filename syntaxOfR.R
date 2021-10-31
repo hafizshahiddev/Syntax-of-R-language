@@ -1,12 +1,12 @@
-#assigning value and printing value
-a = 1      #using =
-print(a)          #printing a
-b <- a+2   #using <-
+#Assigning value and printing value
+a = 1      #Using =
+print(a)   #Printing a
+b <- a+2   #Psing <-
 print(b)
-4 -> a     #using ->
+4 -> a     #Psing ->
 print(a)
 
-#printing multiple data types
+#Printing multiple data types
 cat("value of a: ", a, "value of b: ", b)
 
 #check data type of variable a
@@ -17,8 +17,8 @@ print(class(a))
 
 print(ls())
 
-#usually variable name start with dot are not displayed with ls() 
-#so use this command to show them too
+#Usually variable name start with dot are not displayed with ls() 
+#Use this command to show them too
 print(ls(all.names = TRUE))
 
 #print variable at workspace which include 'za'
