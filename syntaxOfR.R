@@ -1,9 +1,10 @@
 #Assigning value and printing value
+
 a = 1      #Using =
-print(a)   #Printing a
-b <- a+2   #Psing <-
+print(a)   #Print 'a'
+b <- a+2   #Pasing <-
 print(b)
-4 -> a     #Psing ->
+4 -> a     #Pasing ->
 print(a)
 
 #Printing multiple data types
@@ -267,7 +268,7 @@ a<-charToRaw('abcdzABCDZ01239')   #Raw convertin to raw
 a<-rawToChar(a)
 
 # Create vector with elements from 5 to 9 incrementing by 0.4.
-a<-seq(1, 9, by = 0.)3
+a <-seq(1, 9, by = 0.3)
 print(a)
 
 #changing value globally value of a will be 3 if we do this inside function then value will be 3 globally
