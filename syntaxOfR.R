@@ -37,8 +37,6 @@ d <- c(2, 14, 0, 11)
 sum2 <- (v+d)
 print(sum2)
 
-
-
 #adding all elements of two arrays
 sum4 <- sum(v,d)
 print(sum4)
@@ -69,7 +67,6 @@ print(d == v)
 print(d >= v)
 print(d <= v)
 print(d != v)
-print(s==d)
 
 #logical operator
 print(d & v)
