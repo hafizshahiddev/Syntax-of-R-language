@@ -2,7 +2,7 @@
 
 a = 1      #Using =
 print(a)   #Print 'a'
-b <- a+2   #Pasing <-
+b <- a + 2   #Pasing <-
 print(b)
 4 -> a     #Pasing ->
 print(a)
@@ -35,7 +35,7 @@ rm(list = ls())
 
 v <- c(2, 0, 4, 1)
 d <- c(2, 14, 0, 11)
-sum2 <- (v+d)
+sum2 <- (v + d)
 print(sum2)
 
 #adding all elements of two arrays
@@ -47,19 +47,19 @@ sum5 <- sum(v)
 print(sum5)
 
 #subtract arrays
-print(d-v)
+print(d - v)
 
 #multiply arrays element
-print(d*v)
+print(d * v)
 
 #devide elements of arrays
-print(d/v)
+print(d / v)
 
 #modules of two array's element
-print(d%%v)   #reminder will be answer
+print(d %% v)   #reminder will be answer
 
 #
-print(d%/%v)  #quotient will be answer
+print(d %/% v)  #quotient will be answer
 
 #Relational Operators
 print(d > v)
@@ -80,7 +80,7 @@ a = 3
 a <<- 3
 
 #Right Assignment
-3 -> a
+3 -> a  #Assign 3 to a 
 3 ->> a
 
 #Scan value
